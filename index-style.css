@@ -187,14 +187,7 @@ footer a:hover {
         height: 600px;
         height: 60vh;
         justify-content: center;
-        display: flex;
-    
-        align-items: center;
-        background-image: url('imagens/camera.jpg');
         
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
     }
 
     #sobre {
