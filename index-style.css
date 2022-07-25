@@ -31,6 +31,15 @@ nav > a {
     font-family: Yellowtail, serif;
 }
 
+nav a:hover {
+    background-color: rgba(95, 84, 145, 0.432);
+    border-radius: 5px;
+    transition-duration: 0.8s;
+    padding: 10px;
+    width: 50%;
+    
+}
+
 nav ul {
     display: flex;
     flex-direction: column;
@@ -153,6 +162,10 @@ footer {
 footer a {
     text-decoration: none;
     color: #00FFFF;
+}
+
+footer a:hover {
+    color: orange;
 }
 
 @media screen and (min-width: 768px)
